@@ -1,0 +1,50 @@
+# Environment
+.env
+.env.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ruff
+.ruff_cache/
+
+# Logs and runtime data
+logs/
+market_data/
+scratch/
+sensibull_session.json
+*.log
+trade_log.csv
+*.new
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large repos and clones
+unsloth_repo/
+tradingview-mcp/
+tradingview-mcp-clone/
