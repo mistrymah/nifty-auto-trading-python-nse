@@ -1,6 +1,14 @@
-# Nifty Autonomous Options Trading & Adjustment Engine 🚀
+# Nifty Auto Trading Python — NSE Options Trading Bot & M-Shape Strategy 🚀
 
-An institutional-grade, fully autonomous algorithmic options trading system for Nifty 50 weekly cycles. Built around the **Dynamic Calendar M-Shape Strategy (Portfolio Layering)** with real-time volatility surface analysis, dealer gamma exposure (GEX), machine learning forecasts, and an autonomous **Smart Adjustment Analyst Agent**.
+[![GitHub Topics](https://img.shields.io/badge/topics-nse%20|%20nifty%20|%20auto--trading%20|%20python--trading-blue.svg)](https://github.com/mistrymah/nifty-auto-trading-python-nse)
+[![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-brightgreen.svg)](https://python.org)
+
+An institutional-grade **Auto Trading Python** system for **NSE Nifty 50** weekly options. Built around the **Dynamic Calendar M-Shape Strategy (Portfolio Layering)** with real-time Greeks management, dealer Gamma Exposure (GEX), machine learning forecasts, and an autonomous **Smart Adjustment Analyst Agent** using Upstox API v2.
+
+---
+
+### 🔍 Quick Search Keywords
+`auto trading` | `python trading` | `nse` | `nifty` | `nifty 50 options` | `upstox api` | `algorithmic trading bot` | `dynamic calendar spread` | `gamma hedging`
 
 ---
 
