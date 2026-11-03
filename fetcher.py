@@ -464,8 +464,8 @@ class UpstoxFetcher:
         if valid_expiries:
             now = datetime.now()
             today_exp = datetime.strptime(valid_expiries[0], "%Y-%m-%d").date()
-            # EOD Expiry Roll: If today is expiry day and it's >= 15:15, skip today's expiry
-            if len(valid_expiries) > 1 and now.date() == today_exp and (now.hour > 15 or (now.hour == 15 and now.minute >= 11)):
+            # EOD Expiry Roll: If today is expiry day and it's >= 15:10, skip today's expiry
+            if len(valid_expiries) > 1 and now.date() == today_exp and (now.hour > 15 or (now.hour == 15 and now.minute >= 10)):
                 print(f"[EOD ROLL] Rolling nearest expiry to {valid_expiries[1]} (Avoiding Expiry Day Settlement Risk)")
                 return valid_expiries[1]
             return valid_expiries[0]

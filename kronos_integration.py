@@ -1,5 +1,7 @@
 import sys
 import os
+os.environ["HF_HUB_OFFLINE"] = "1"
+os.environ["TRANSFORMERS_OFFLINE"] = "1"
 from pathlib import Path
 import pandas as pd
 import torch
